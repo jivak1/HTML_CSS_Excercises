@@ -1,0 +1,37 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 7% 5% 5% 5% ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: lightgray;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    text-align: left;
+}
+td{
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+tr:nth-child(even)
+{
+    background-color: #eee;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+blockquote footer{
+    text-align: right;
+}
