@@ -1,0 +1,23 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+body{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    justify-items: center ;
+}
+.viewpoint:nth-child(1){
+    background-color: blue;
+}
+.viewpoint:nth-child(2){
+    background-color: red;
+}
+.card{
+    display: block;
+    padding: 20px;
+    position: absolute;
+}
+
+img{
+    max-width: 300px;
+    max-height: 400px ;
+    align-self: center;
+}

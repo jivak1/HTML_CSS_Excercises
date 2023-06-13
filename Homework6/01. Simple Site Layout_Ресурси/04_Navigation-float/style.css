@@ -1,0 +1,19 @@
+body{
+    background-color:  rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    size: 1em;
+}
+
+h1, h2, h3{
+    size: 1.2em;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote{
+    font-family: Georgia, serif;
+
+}
