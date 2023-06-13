@@ -1,0 +1,20 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column-reverse;
+}
+
+span{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 2em ;
+    text-align: center;
+}
