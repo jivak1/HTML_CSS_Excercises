@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+    font-size: 16px;
+    font-style: "Open", sans-serif;
+}
+body{
+    padding: 5em 10em 5em 10em;
+}
+.container{
+    display: flex;
+    height: 40em;
+    width: 80em;
+    outline: .009px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container img{
+    width: 50%;
+    
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding: 5em;
+}
+
+.buttons{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttons button{
+    border-radius: 5px;
+}
+.green-button{
+    background-color: lightgreen;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.gender select{
+    width: 40%;
+}
+
+.gender input{
+    width: 40%;
+}
+
+.weight{
+    text-align: center;
+    width: 100%;
+}
+
+.weight input{
+    width: 100%;
+}
+.height{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+.height input{
+    width: 50%;
+}
+
+.calculate-button{
+    color: white;
+    background-color: rgb(54, 54, 228);
+    font-weight: 1000;
+    border-radius: 10px;
+    width: 100%;
+    padding: .5em;
+}

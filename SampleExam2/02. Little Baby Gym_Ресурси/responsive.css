@@ -1,0 +1,106 @@
+@media (width <= 600px) {
+
+    html{
+        font-size: 14px;
+    }
+    body{
+        margin: 0;
+    }
+    .entry-header{
+        border-radius: 0%;
+        margin: 0;
+    }
+    .site-main{
+        margin: 0;
+    }
+    .site-navigation{
+        display: none;
+    }
+    .site-logos{
+        margin: 0;
+    }
+    .site-logos-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        
+    }
+    .site-information{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        min-width: none;
+        margin: 0;
+    }
+    .site-information-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        text-align: center;
+        
+    }
+    .entry-content{
+        margin: 0;
+    }
+    .entry-description{
+        min-width: auto;
+    }
+    .site-information-image{
+        display: none;
+        flex: none;
+        background-size: none;
+    }
+
+    .site-form-container{
+        width: 100%;
+    }
+
+    .site-form-container form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 100%;
+    }
+
+    .site-form-container form p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 100%;
+    }
+    .site-form-container form p input{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .site-form-container form button{
+        align-self: center;
+    }
+    .site-posts{
+        flex-direction: column;
+    }
+    .site-footer{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .site-blog{
+        margin: 0;
+    }
+    .entry-header-container{
+        margin: 0;
+    }
+    .site-form{
+        margin: 0;
+    }
+    .site-blog-container{
+        margin: 0;
+    }
+}
