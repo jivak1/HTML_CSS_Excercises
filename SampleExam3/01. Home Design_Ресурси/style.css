@@ -1,0 +1,78 @@
+@import url(https://fonts.google.com/specimen/Courgette);
+
+
+html{
+    font-size: 16px;
+    font-family: "Courgette";
+}
+body{
+    background-color: lightgrey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.header h1{
+    margin-bottom: 0;
+}
+.red-subtitle{
+    color: red;
+    align-self:center ;
+    margin-top: 0;
+    margin-left: 5em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3{
+    width: 90%;
+    border-bottom: 1px red solid;
+    
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    height: 20%;
+}
+
+.coloring{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0 .2em 0 .2em;
+}
