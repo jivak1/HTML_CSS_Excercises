@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+html{
+    font-size: 16px;
+    font-family: "Inter";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 4em 2em 4em ;
+}
+
+.navbar a{
+    padding: .5em;
+    text-decoration: none;
+    color: black;
+}
+
+.login-button{
+    background-color: white;
+    border: none;
+    padding: .5em 1em;
+}
+
+.signup-button{
+    background-color: aquamarine;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+.section1{
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3em;
+    background-color: aquamarine;
+}
+.section1 h1, p, .download-buttons{
+    width: 100%;
+    margin: 30px;
+    align-self: center;
+}
+
+.section1 h1{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+
+.download-button{
+    width: 15em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+.section2{
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 6em 3em 6em;
+    
+}
+
+.card{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    border-right: 1px solid black;
+    border-width: .3px;
+}
+
+.card h2{
+    font-size: 30px;
+    height: auto;
+}
+
+.section3{
+    
+    height: 630px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4em;
+    
+}
+
+.section3 img{
+    padding-top: 4em;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    height: 100%;
+    width: 50%;
+}
+
+.text-area h1{
+    font-size: 4em;
+    font-weight: 500;
+    padding-bottom: .5em;
+}
+
+.text-area h2{
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.text-area a{
+    width: 21%;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.text-area i{
+    font-weight: 500;
+}
+.section4{
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: none;
+    margin-bottom: 3em;
+    
+}
+.pricing-plans{
+    width: 7%;
+    background-color: aquamarine;
+    padding: .5em;
+    border-radius: 5px;
+    text-align: center;
+}
+.plan-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+.section4-heading{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plan-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    background-color: aliceblue;
+}
+.plan-card h2{
+    text-align: center;
+}
+.price-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-text h1{
+    margin-top: 0;
+    padding: 0;
+}
+
+.price-text p{
+    margin: 0em 0em 0em .3em;
+
+}
+
+.plan-card ul{
+    margin: 1em 0 2em 0;
+    list-style: none;
+}
+
+.plan-card ul li:before,
+.expand-card ul li:before{
+    content: "\f00c"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: green;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+.plan-card button{
+    background-color: aquamarine;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.expand-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: aquamarine;
+}
+.expand-card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.expand-card-text h2{
+    text-align: center;
+}
+
+.expand-card-text p{
+    font-weight: 600;
+}
+
+.expand-card ul{
+    list-style: none;
+}
+
+.expand-card button{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.section5{
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.section5 h1{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twitter-icon{
+    
+    text-align: end;
+}
+
+button i{
+    padding: .3em ;
+}

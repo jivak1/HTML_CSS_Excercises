@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html{
+    font-size: 16px;
+    font-family: "Inter";
+    width: 100% ;
+}
+body{
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+    width: 100%;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.textarea .small-tittle{
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 100%;
+    margin: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-img{
+    width: 100%;
+    height: 20em;
+}
+
+.textarea{
+    width: 27em;
+    margin: 1em;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    border-top: 1px solid black;
+
+}
+.author:first-child{
+    padding-bottom: 1em;
+}
+.author img{
+    width: 2em;
+    height: 2em;
+    border-radius: 15px;
+    
+}
+
+.text-image p{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.name-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 7em;
+}
+
+.padding-top{
+    padding-top: .5em;
+}

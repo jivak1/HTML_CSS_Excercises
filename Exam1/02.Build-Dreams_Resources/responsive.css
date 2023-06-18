@@ -1,0 +1,42 @@
+@media (width <= 600px){
+    .home-container{
+        height: 100%;
+        min-height: auto;
+    }
+    .home-hero{
+        flex-direction: column-reverse;
+        
+    }
+    .home-image1{
+        width: 100%;
+    }
+    .home-hero-text-container{
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .home-heading-container{
+        width: 100%;
+    }
+    .home-cards-container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .home-features{
+        height: 100%;
+    }
+    .home-feature-card{
+        width: 100%;
+    }
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+    }
+    .home-stats{
+        display: flex;
+        flex-direction: column;
+    }
+}
